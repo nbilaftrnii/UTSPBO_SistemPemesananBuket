@@ -243,7 +243,7 @@ Masukkan Pilihan
 ---
 ## ▶️ Running Program
 
-**1. Menu Utama**
+### **1. Menu Utama**
 
 Menu utama merupakan tampilan awal ketika program dijalankan. Pengguna dapat memilih fitur yang tersedia dengan memasukkan angka 1 sampai 5.
 
@@ -262,7 +262,7 @@ Kode tersebut menggunakan **if, else** untuk mengecek pilihan pengguna. Setiap a
 
 Output menampilkan menu utama Sistem Pemesanan Buket yang berisi lima pilihan. Pengguna dapat memasukkan nomor menu untuk menjalankan fitur yang diinginkan.
 
-**2. Menampilkan Daftar Buket**
+### **2. Menampilkan Daftar Buket**
 
 Menu ini digunakan untuk melihat semua buket yang tersedia sebelum pengguna melakukan pemesanan.
 
@@ -278,7 +278,7 @@ Method **tampilkanDaftarBuket()** digunakan untuk menampilkan seluruh data buket
 
 Output menampilkan beberapa jenis buket yang tersedia, seperti Lily Bouquet, Sweet Bouquet, Money Bouquet, dan Cute Bouquet. Informasi yang ditampilkan menyesuaikan jenis buket, seperti nama, harga, stok, serta informasi tambahan lainnya.
 
-**3. Pemesanan Buket**
+### **3. Pemesanan Buket**
 
 Menu ini digunakan untuk melakukan pemesanan dari buket yang sudah tersedia pada daftar buket. Pengguna memilih buket, menentukan jumlah pesanan, kemudian melakukan pembayaran.
 
@@ -298,7 +298,7 @@ Kode tersebut digunakan untuk menerima pilihan buket dan jumlah yang ingin dipes
 
 Output menunjukkan pengguna memilih salah satu buket dan memasukkan jumlah yang ingin dipesan. Setelah data dimasukkan, sistem akan melanjutkan proses pesanan apabila stok masih mencukupi.
 
-**4. Pemesanan Buket Custom**
+### **4. Pemesanan Buket Custom**
 
 Menu buket custom digunakan untuk pengguna yang ingin membuat buket dengan isi sesuai keinginan. Isi buket tidak harus mengikuti jenis buket yang sudah tersedia pada daftar.
 
@@ -320,7 +320,7 @@ Kode tersebut meminta pengguna memasukkan data buket custom, yaitu nama buket, i
 
 Output menunjukkan pengguna dapat menentukan sendiri isi buket dan informasi lainnya. Setelah seluruh data dimasukkan, sistem akan membuat pesanan berdasarkan data custom tersebut.
 
-**5. Pembayaran Berhasil**
+### **5. Pembayaran Berhasil**
 
 Setelah pesanan dibuat, pengguna harus melakukan pembayaran sesuai dengan total harga pesanan. Jika pembayaran mencukupi, sistem akan menyatakan pembayaran berhasil dan menghitung kembalian.
 
@@ -336,7 +336,7 @@ Kondisi **if** digunakan untuk membandingkan jumlah pembayaran dengan total harg
 
 Output menampilkan informasi bahwa pembayaran berhasil, kemudian menunjukkan total harga, jumlah uang yang dibayarkan, dan kembalian yang diterima pengguna.
 
-**6. Pembayaran Kurang**
+### **6. Pembayaran Kurang**
 
 Jika pembayaran yang diberikan belum mencukupi total harga, sistem tidak langsung menyelesaikan pesanan. Sistem akan menghitung dan menampilkan jumlah kekurangan pembayaran.
 
@@ -354,7 +354,7 @@ Setelah itu, pengguna dapat memilih apakah ingin melakukan pembayaran kembali at
 
 Output menunjukkan bahwa pembayaran belum mencukupi. Sistem menampilkan total harga, jumlah pembayaran, dan nominal kekurangan yang harus dibayarkan.
 
-**7. Riwayat Pesanan**
+### **7. Riwayat Pesanan**
 
 Menu riwayat pesanan digunakan untuk melihat kembali seluruh pesanan yang sudah berhasil diproses dan disimpan oleh sistem.
 
@@ -370,7 +370,7 @@ Program terlebih dahulu mengecek apakah **daftarPesanan** masih kosong. Jika kos
 
 Output menampilkan daftar pesanan yang sebelumnya telah berhasil diproses. Pengguna dapat melihat kembali detail pesanan melalui menu ini.
 
-**8. Keluar dari Program**
+### **8. Keluar dari Program**
 
 Menu keluar digunakan untuk **mengakhiri** penggunaan sistem. Ketika pengguna memilih menu nomor 5, program akan menampilkan pesan terima kasih kemudian keluar dari sistem.
 
