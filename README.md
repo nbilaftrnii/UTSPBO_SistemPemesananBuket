@@ -72,7 +72,7 @@ Program Bloom mam terdiri dari beberapa package yang digunakan untuk mengelompok
 - Pesanan >> menyimpan data buket yang dipesan, jumlah pesanan, dan pembayaran.
 
 ---
-## Konsep Pemrograman Berorientasi Objek 🧑🏻‍💻
+## 🧑🏻‍💻 Konsep Pemrograman Berorientasi Objek
 
 Program Sistem Pemesanan Buket menerapkan beberapa konsep Pemrograman Berorientasi Objek, yaitu:
 
